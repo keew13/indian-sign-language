@@ -6,7 +6,7 @@ The dataset for this project was created by me and my friends using a [sign_gene
 
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
-|<img width="1604" alt="1" src="https://github.com/keew13/indian-sign-language/blob/main/images/1.jpg">  blah |  <img width="1604" alt="b" src="https://github.com/keew13/indian-sign-language/blob/main/images/b.jpg">|<img width="1604" alt="r" src="https://github.com/keew13/indian-sign-language/blob/main/images/r.jpg">|
+|<img width="1604" alt="1" src="https://github.com/keew13/indian-sign-language/blob/main/images/1.jpg">|<img width="1604" alt="b" src="https://github.com/keew13/indian-sign-language/blob/main/images/b.jpg">|<img width="1604" alt="r" src="https://github.com/keew13/indian-sign-language/blob/main/images/r.jpg">|
 
 that can be 
 A lot of this has been referred and inspired from the following places:<br>
