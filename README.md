@@ -1,5 +1,11 @@
 # indian-sign-language
-This was a self project undertaken from a learning perspective to start out in the field of Computer Vision.<br>
+Indian Sign Language is a real time translation tool that generates english transcripts by capturing indian signs from a video feed. This was a self project undertaken from a learning perspective to start out in the field of Computer Vision.
+
+## Dataset
+The dataset for this project was created by me and my friends using a [sign_generator.py](https://github.com/keew13/indian-sign-language/blob/main/sign_generator.py). 
+
+
+that can be 
 A lot of this has been referred and inspired from the following places:<br>
 https://data-flair.training/blogs/sign-language-recognition-python-ml-opencv/ <br>
 https://github.com/evilport2/sign-language
