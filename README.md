@@ -8,16 +8,15 @@ The dataset for this project was created by me and my friends using a [sign_gene
 |:-------------------------:|:-------------------------:|:-------------------------:|
 |<img width="1604" alt="1" src="https://github.com/keew13/indian-sign-language/blob/main/images/1.jpg">|<img width="1604" alt="b" src="https://github.com/keew13/indian-sign-language/blob/main/images/b.jpg">|<img width="1604" alt="r" src="https://github.com/keew13/indian-sign-language/blob/main/images/r.jpg">|
 
-Sign 2 was skipped during creation due to its similarity with character V. Custom characters to incorporate deleting the characters and providing space were also created.
-Same script with custom changes can be executed to create your own custom dataset.
+Sign 2 was skipped during creation due to its similarity with character V. Custom characters to incorporate deleting the characters and providing space were also created.<br>
+Same script with custom changes can be executed to create your own custom dataset. The script also creates the folders in required hierarchy that helps later during the training stage.
 
 ## Training
-that can be 
-A lot of this has been referred and inspired from the following places:<br>
-https://data-flair.training/blogs/sign-language-recognition-python-ml-opencv/ <br>
-https://github.com/evilport2/sign-language
-<br>
-First the sign_generator.py file should be run. It creates the required folder hierarchy and helps in creating a dataset. You can tweak the file as required and create additional signs which might help you in generating the transcript more easily.<br>
-Following this the model can be trained using the isl_classifier.py where there is provision for early stopping, reducing the lr on plateu and saving the model after every epoch in which val_accuracy improves. It also allows for continuing with the training again if it was interrupted in middle.<br>
-Lastly one can run the real_time_isl.py which allows you to create a transcript of whatever signed communication is happening.<br>
-I have also added the saved models that were generated after every epoch of best val_accuracy when I trained the model.
+Training of the project can be achieved using [isl_classifier.py](https://github.com/keew13/indian-sign-language/blob/main/isl_classifier.py). Required parameters of path and others can be changed in the file. Necessary callbacks like early stopping and other required methods have been defined and can be used as required. Training can be resumed in case an interruption occured. Some of the weights that were saved during the training process are also available in this repository's root path.
+
+## Working
+The real time translation can be brought into action using [real_time_isl.py](https://github.com/keew13/indian-sign-language/blob/main/real_time_isl.py). It generates the necessary windows for displaying the camera feed and displaying the classified signs collectively as a transcript.
+
+## References
+[Sign Language Recognition](https://data-flair.training/blogs/sign-language-recognition-python-ml-opencv/)
+[Evilport](https://github.com/evilport2/sign-language)
