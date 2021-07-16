@@ -18,5 +18,5 @@ Training of the project can be achieved using [isl_classifier.py](https://github
 The real time translation can be brought into action using [real_time_isl.py](https://github.com/keew13/indian-sign-language/blob/main/real_time_isl.py). It generates the necessary windows for displaying the camera feed and displaying the classified signs collectively as a transcript.
 
 ## References
-[Sign Language Recognition](https://data-flair.training/blogs/sign-language-recognition-python-ml-opencv/)<br>
-[Evilport](https://github.com/evilport2/sign-language)
+* [Sign Language Recognition](https://data-flair.training/blogs/sign-language-recognition-python-ml-opencv/)<br>
+* [Evilport](https://github.com/evilport2/sign-language)
