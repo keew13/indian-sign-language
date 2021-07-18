@@ -15,7 +15,11 @@ Same script with custom changes can be executed to create your own custom datase
 Training of the project can be achieved using [isl_classifier.py](https://github.com/keew13/indian-sign-language/blob/main/isl_classifier.py). Required parameters of path and others can be changed in the file. Necessary callbacks like early stopping and other required methods have been defined and can be used as required. Training can be resumed in case an interruption occured. Some of the weights that were saved during the training process are also available in this repository's root path.
 
 ## Working
-The real time translation can be brought into action using [real_time_isl.py](https://github.com/keew13/indian-sign-language/blob/main/real_time_isl.py). It generates the necessary windows for displaying the camera feed and displaying the classified signs collectively as a transcript.
+The real time translation can be brought into action using [real_time_isl.py](https://github.com/keew13/indian-sign-language/blob/main/real_time_isl.py). It generates the necessary windows for displaying the camera feed and displaying the classified signs collectively as a transcript. Following are the screenshots of transcipt generation in process:
+| | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+|<img width="1604" alt="1" src="https://github.com/keew13/indian-sign-language/blob/main/images/output1.jpeg">|<img width="1604" alt="b" src="https://github.com/keew13/indian-sign-language/blob/main/images/output2.jpeg">|<img width="1604" alt="r" src="https://github.com/keew13/indian-sign-language/blob/main/images/output3.jpeg">|
+
 
 ## References
 * [Sign Language Recognition](https://data-flair.training/blogs/sign-language-recognition-python-ml-opencv/)<br>
